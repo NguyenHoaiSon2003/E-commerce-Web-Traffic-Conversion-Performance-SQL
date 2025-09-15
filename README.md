@@ -1,4 +1,4 @@
-# Analyze Web Traffic & Conversion Performance of Google Merchandise Store – an e-commerce company selling Google-branded products | SQL
+# E-commerce Web traffic & conversion performance analyst | SQL
 
 Utilizeed SQL in Google BigQuery to write and execute queries to find the desired data
 
