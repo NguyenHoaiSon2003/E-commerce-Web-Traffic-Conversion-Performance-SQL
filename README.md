@@ -4,22 +4,52 @@ Utilizeed SQL in Google BigQuery to write and execute queries to find the desire
 
 **I. INTRODUCTION**
 
-This project contains an eCommerce dataset that I will explore using SQL on Google BigQuery. The dataset is based on the Google Analytics public dataset and contains data from an eCommerce website.
+This project analyzes the Google Analytics Sample eCommerce dataset (bigquery-public-data.google_analytics_sample.ga_sessions) using SQL on Google BigQuery.
+
+
+The dataset contains web traffic, user behavior, and transaction data from an eCommerce website. It includes information such as traffic sources, number of visits, bounce rate, pageviews, transactions, and revenue.
+
+
+The main objective of this project is to explore and analyze the website’s marketing and sales performance, in order to answer key business questions, such as:
+    
+- Which traffic sources bring the most visits and conversions?
+- How do bounce rate and conversion rate vary across channels?
+- What is the purchasing behavior of users (average pageviews, transactions, revenue per session)?
+- How do purchasers differ from non-purchasers?
+
+By addressing these questions, the project provides insights into eCommerce performance evaluation, helping businesses optimize marketing efforts, improve conversion rates, and increase revenue.
 
 **II. REQUIREMENTS**
-- Google Cloud Platform account
-- Project on Google Cloud Platform
-- Google BigQuery API enabled
-- SQL query editor or IDE
+
+To conduct this project, the following are required:
+
+- Google Cloud Platform account to access BigQuery.
+
+- Google BigQuery API enabled for querying the dataset.
+
+- SQL query editor (BigQuery console or IDE) to write and run SQL queries.
+
+- Basic SQL knowledge to explore web traffic, user behavior, and transaction data effectively.
 
 **III. DATASET ACCESS**
 
-The eCommerce dataset is stored in a public Google BigQuery dataset. To access the dataset, follow these steps:
-- Log in to your Google Cloud Platform account and create a new project.
-- Navigate to the BigQuery console and select your newly created project.
-- In the navigation panel, select "Add Data" and then "Search a project".
-- Enter the project ID "bigquery-public-data.google_analytics_sample.ga_sessions" and click "Enter".
-- Click on the "ga_sessions_" table to open it.
+The analysis is based on the Google Analytics Sample eCommerce dataset available in the public BigQuery project:
+
+- Dataset: bigquery-public-data.google_analytics_sample
+
+- Main table: ga_sessions (daily partitioned tables such as ga_sessions_2017*)
+
+This dataset contains session-level information on website traffic and user activities, including:
+
+- Visit and pageview data
+
+- Traffic source and medium
+
+- Transactions and revenue details
+
+- User engagement metrics (bounce, session duration, etc.)
+
+By leveraging this dataset, the project aims to evaluate the marketing and conversion performance of an eCommerce website and generate actionable business insights.
 
 **IV. EXPLORING THE DATASET**
 
